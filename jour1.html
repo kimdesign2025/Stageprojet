@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ma page boostrap</title>
+        <!-- Lien Bootstrap -->
+        <link href="./bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet"  >
+         
+        <!-- balise meta responsive-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+</head>
+<style>
+    .bg-violet-custom {
+    background-color: #6f42c1; /* Violet clair */
+}
+body {
+    background-image: url('./photo/BG.jpg'); /* Remplace par ton image */
+    background-size: cover; /* Couvre toute la page */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Empêche la répétition */
+    background-attachment: fixed; /* Fixe l'image lors du scroll */
+}
+
+
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+         
+          <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="./photo/desing.jpg" alt="Logo" class="rounded-circle me-2" width="60" height="60">
+                #KIM MOTIVATION
+            </a>
+        </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="jour1.html">Acueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="jour1(1).html">Presentation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-nowrap" href="jour2.html">Voir plus</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-nowrap" href="jour2(2).html">Autre</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+   
+    
+    <header class="bg-violet-custom text-white text-center p-5">
+        <h1>Bienvenue sur notre site</h1>
+       
+    </header>
+
+    <div class="row">
+        <div class="col-3">
+            
+        </div>
+        <div class="col-6">
+               <!-- Formulaire -->
+    <section class="container">
+        <h2 class="text-center">Contactez-nous</h2>
+        <form>
+            <div class="mb-3">
+                <label class="form-label">Nom</label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control">
+            </div>
+            <a href="jour1(1).html" class="btn btn-primary btn-lg">Envoyer</a>
+        </form>
+    </section>
+        </div>
+        <div class="col-3">
+            
+        </div>
+
+    </div>
+     <!-- Pied de page -->
+     <footer class="bg-dark text-white text-center p-3 mt-5">
+        &copy; 2025 #kimdesign - Tous droits réservés.
+    </footer>
+   <!-- Lien javascript -->
+
+    <script src="./bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
