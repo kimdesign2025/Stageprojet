@@ -1,8 +1,10 @@
 def info_personne(nom, age):
     print("vous vous appelle " + nom + " et vous avez " + str(age) + " et vous aurez " + str(age + 1)  + " l'annee prochain ")
     
-
-
+    if age <=18:
+        print("vous etes mineur ")
+    else:
+        print("vous etes majeur")
 
 def demander_nom():
     reponse_nom = ""
